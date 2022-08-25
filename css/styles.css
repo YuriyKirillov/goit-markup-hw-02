@@ -18,7 +18,7 @@
 
 }
 
-.body {
+body {
 font-family: var(--main-font);
 color: var(--light-txt-cl);
 
@@ -28,17 +28,32 @@ color: var(--light-txt-cl);
 .link {
 text-decoration: none;
 color: currentColor;
+font-family: var(--main-font);
+font-style: var(--fonts-st);
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.02em;
+color: var(--main-txt-cl);
 
 }
 
 .link:hover,
 .link:focus  {
 color: var(--accent-txt-cl);
+
+
 }
 
 .link-active {
 text-decoration: none;
-color: currentColor;   
+color: currentColor; 
+font-family: var(--main-font);
+font-style: var(--fonts-st);
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.02em;
 color: var(--accent-txt-cl);
 
 }
@@ -68,6 +83,7 @@ color: var(--main-txt-cl);
 .logo-link, 
 .logo-span,
 .logo-span-white {
+font-family: var(--secondary-font);
 
 font-weight: 700;
 font-size: 26px;
