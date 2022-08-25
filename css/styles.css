@@ -100,7 +100,7 @@ color: #000000;
 
 .header-list-item {
 font-family: var(--main-font);
-font-style: normal;
+font-style: var(--fonts-st);
 font-weight: 500;
 font-size: 14px;
 line-height: calc(16 / 14);
